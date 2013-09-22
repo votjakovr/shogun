@@ -54,6 +54,7 @@ public:
 	 *
 	 * @return name StudentsTLikelihood
 	 */
+	// In most of the methods I've seen this function is the last public method, not sure if this is a convention or not, it probably doesn't matter 
 	virtual const char* get_name() const { return "StudentsTLikelihood"; }
 
 	/** returns the scale paramter

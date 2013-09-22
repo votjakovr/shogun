@@ -241,6 +241,8 @@ public:
 
 #endif /* DOXYGEN_SHOULD_SKIP_THIS */
 
+// are some of these classes worth moving to shogun/mathematics?
+
 CStudentsTLikelihood::CStudentsTLikelihood() : CLikelihoodModel()
 {
 	init();

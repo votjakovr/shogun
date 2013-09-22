@@ -204,6 +204,8 @@ public:
 
 #endif /* DOXYGEN_SHOULD_SKIP_THIS */
 
+// are these duplicated in the code? I am pretty sure that I saw these functions elsewhere
+
 CLogitLikelihood::CLogitLikelihood() : CLikelihoodModel()
 {
 }
