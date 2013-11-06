@@ -128,6 +128,7 @@ float64_t CInferenceMethod::get_marginal_likelihood_estimate(
 	ASSERT(log_likelihood.vlen==num_importance_samples);
 	ASSERT(log_likelihood.vlen==log_pdf_prior.vlen);
 	ASSERT(log_likelihood.vlen==log_pdf_post_approx.vlen);
+	// error messages? what if these asserts are not valid?
 	SGVector<float64_t> sum(log_likelihood);
 	for (index_t i=0; i<log_likelihood.vlen; ++i)
 		sum[i]=log_likelihood[i]+log_pdf_prior[i]-log_pdf_post_approx[i];

@@ -56,3 +56,8 @@ public:
 };
 }
 #endif /* CMEANFUNCTION_H_ */
+
+/* Probably just because I don't fully understand all of the gp code yet but if zero mean
+is the only class that inherits from this (is it?) then why do we need these 2 classes? I always just
+use eigen3 with a .rowwise().sum() / N to do mean vectors etc. Either way let me know because
+I am curious*/
